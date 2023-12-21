@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Q1. Add two Numbers.
+        let a = 5;
+        let b = 3;
+        let c = a + b;
+        console.log(c);
+
+        // Q2. Find if the conditions are obeyed or not?
+        let p1 = 5;
+        let p2 = 3;
+        if (p1 > p2) {
+            console.log('True')
+        } else {
+            console.log('False')
+        }
+
+        // Q3. Check the conditions
+        const a1 = 12;
+        const b1 = 20;
+        if (a1 % 10 === 0 && b1 % 10 === 0) {
+            console.log('True')
+        }
+        else if (a1 % 10 === 0 || b1 % 10 === 0) {
+            console.log('True');
+        }
+        else {
+            console.log('False');
+        }
+
+        // Q4. Find the first digit of a 4 digit number.
+        let num1 = 4567;
+        let result = parseInt(num1 / 1000);
+        console.log(result);
+
+        // Q5. Find the last digit of a 4 digit number.
+        let num2 = 4567;
+        let ans = parseInt(num2 % 10);
+        console.log(ans);
+
+        // Q6. Find the remainder
+        let f1 = 9;
+        let f2 = 2;
+        let f3 = f1 % f2
+        console.log(f3)
+
+        // Q7. Multiply two numbers
+        let mul1 = 2;
+        let mul2 = 5;
+        let multi = mul1 * mul2;
+        console.log(multi)
+
+        // Q8. Marks Calculator
+        let marks1 = 50;
+        let marks2 = 20;
+        let marks3 = 100;
+        let add = marks1 + marks2 + marks3;
+        let avg = (marks1 + marks2 + marks3) / 3;
+        console.log(add);
+        console.log(avg.toFixed(2));
+    </script>
+</body>
+
+</html>
